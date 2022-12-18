@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.body-style{
+    background: -webkit-linear-gradient(deeppink, purple)
+}
+input{
+    outline: none;
+}
+div{
+    background-clip: text;
+    background: -webkit-linear-gradient(dodgerblue, deeppink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+button{
+    position: absolute;
+    right: 0;
+    top: 0;
+color:aqua ;
+background-color: purple;
+border: none;
+border-radius: 5px;
+padding: 5px;
+cursor: pointer;
+}
